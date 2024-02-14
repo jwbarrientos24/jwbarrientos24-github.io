@@ -1,7 +1,9 @@
 # John Paul Barrientos' Portfolio
 
 **Author: John Paul W. Barrientos**
+
 **2020-12299**
+
 **BS Computer Science**
 
 ### Live Website Link: https://jwbarrientos24.github.io/
