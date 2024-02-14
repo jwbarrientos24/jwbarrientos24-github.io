@@ -1,11 +1,10 @@
 .main {
     display: flex;
-    min-height: 97vh;
+    height: 97vh;
     flex-direction: column;
 }
 
 .name {
-    margin-top: 3vh;
     display: flex;
     background-color: #4d5357;
     height: 20vh;
@@ -22,7 +21,7 @@
 
 .contact {
     background-color: #17687f;
-    height: 100vh;
+    height: 70vh ;
     width: 30vw;
 }
 
@@ -68,4 +67,13 @@ img {
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 2px;
+}
+
+.info {
+    font-family: "Montserrat";
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-top: 2vh;
+    padding-right: 5vw;
 }
