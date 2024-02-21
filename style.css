@@ -1,6 +1,9 @@
+html { font-size:100%; }
+
+
 .main {
     display: flex;
-    height: 97vh;
+    max-height: 100%;
     flex-direction: column;
 }
 
@@ -15,19 +18,27 @@
 
 .nameTitle {
     flex-direction: column;
-    margin-left: 5%;
+    margin-left: 3vw;
     align-self: center;
 }
 
 .contact {
     background-color: #17687f;
-    height: 70vh ;
+    height: auto ;
     width: 30vw;
 }
 
+.photo {
+    display: flex;
+}
+
 #profilePhoto {
+    max-width: 100%;
     border-radius: 50%;
     border-color: white;
+    border: .15rem solid #33a0ce;
+    padding: .3rem;
+    align-self: center;
 }
 
 #name {
@@ -35,21 +46,21 @@
     font-weight: bold;
     color: white;
     letter-spacing: 5px;
-    font-size: 28px;
+    font-size: 1.75rem;
 }
 
 #title {
     margin-top: 2vh;
     font-family: "Century Gothic";
     color: white;
-    font-size: 14px;
+    font-size: .875rem;
     letter-spacing: 1px;
 }
 
 .contact {
     display: flex;
     flex-direction: column;
-    padding-left: 5vh;
+    padding-left: 3vw;
     padding-top: 3vh;
 }
 
@@ -64,16 +75,16 @@
 .head {
     font-family: "Montserrat";
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
 }
 
 .info {
     font-family: "Montserrat";
     color: white;
-    font-size: 14px;
-    letter-spacing: 2px;
+    font-size: .875rem;
+    letter-spacing: .125rem;
     margin-top: 2vh;
     padding-right: 5vw;
 }
@@ -90,7 +101,7 @@
     display: flex;
     align-items: center;
     background-color: #eaeaea ;
-    height: 45px;
+    height: 7vh;
     width: 20vw;
 }
 
@@ -99,7 +110,7 @@
     color: #4d5256;
     font-weight: 500;
     margin-left: 1vw;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .design {
@@ -111,16 +122,17 @@
 .lowerPart {
     display: flex;
     flex-direction: row;
+    height: 100%;
 }
 
 .contentOfContent {
     font-family: "Montserrat";
     color: #4d5256;
     margin-left: 2vw;
-    font-size: 14px;
+    font-size: .875rem;
     text-align: justify;
     text-justify: inter-word;
-    line-height: 1.5;
+    line-height: 1.25rem;
 }
 
 #interpreter {
@@ -142,8 +154,8 @@
 .projectTitle {
     font-family: "Montserrat";
     color: #4d5256;
-    font-size: 14px;
+    font-size: .875rem;
     text-align: center;
     text-justify: inter-word;
-    line-height: 1.5;
+    line-height: 1.25rem;
 }
