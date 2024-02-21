@@ -1,25 +1,17 @@
-html { font-size:100%; }
-
-
 .main {
     display: flex;
     max-height: 100%;
+    max-width: auto;
     flex-direction: column;
 }
 
 .name {
     display: flex;
     background-color: #4d5357;
-    height: 20vh;
     width: 97vw;
+    max-height: 11vw;
     justify-content: center;
     padding: 2vh;
-}
-
-.nameTitle {
-    flex-direction: column;
-    margin-left: 3vw;
-    align-self: center;
 }
 
 .contact {
@@ -28,14 +20,19 @@ html { font-size:100%; }
     width: 30vw;
 }
 
+.nameTitle {
+    flex-direction: column;
+    margin-left: 3vw;
+    align-self: center;
+}
+
 .photo {
     display: flex;
 }
 
 #profilePhoto {
-    width: 100%;
-    height: auto;
-    max-height: 18vh;
+    width: auto;
+    max-height: 10vw;
     border-radius: 50%;
     border-color: white;
     border: .15rem solid #33a0ce;
@@ -103,7 +100,7 @@ html { font-size:100%; }
     display: flex;
     align-items: center;
     background-color: #eaeaea ;
-    height: 7vh;
+    height: 3.5vw;
     width: 20vw;
 }
 
