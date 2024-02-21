@@ -33,7 +33,9 @@ html { font-size:100%; }
 }
 
 #profilePhoto {
-    max-width: 100%;
+    width: 100%;
+    height: auto;
+    max-height: 18vh;
     border-radius: 50%;
     border-color: white;
     border: .15rem solid #33a0ce;
@@ -92,7 +94,7 @@ html { font-size:100%; }
 .content {
     display: flex;
     margin-top: 2vh;
-    margin-left: 4vh;
+    margin-left: 2vw;
     flex-direction: column;
     padding-right: 5vw;
 }
